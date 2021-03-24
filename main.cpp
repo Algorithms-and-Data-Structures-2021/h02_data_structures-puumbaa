@@ -6,10 +6,14 @@
 using namespace itis;
 
 int main(int argc, char **argv) {
-  std::cout << "Hello, stranger!" << std::endl;
+    LinkedList* linkedList = new LinkedList();
+    std::cout<<linkedList->GetSize()<<"\n";
+    linkedList->Add(Element::GRAVITY_GUN);
+    linkedList->Add(Element::DRAGON_BALL);
+    std::cout<<linkedList->GetSize()<<"\n";
+    linkedList->Insert(1,Element::BEAUTIFUL_FLOWERS);
+    std::cout<<linkedList->GetSize();
 
-  auto array_list = new ArrayList();
-
-  delete array_list;
+    std::cout<<enum2str(linkedList->Remove(1));
   return 0;
 }
