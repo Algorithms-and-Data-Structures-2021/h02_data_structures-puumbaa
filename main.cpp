@@ -6,6 +6,7 @@
 using namespace itis;
 
 int main(int argc, char **argv) {
+    /*
     LinkedList* linkedList = new LinkedList();
     std::cout<<linkedList->GetSize()<<"\n";
     linkedList->Add(Element::GRAVITY_GUN);
@@ -15,5 +16,6 @@ int main(int argc, char **argv) {
     std::cout<<linkedList->GetSize();
 
     std::cout<<enum2str(linkedList->Remove(1));
-  return 0;
+    */
+     return 0;
 }
